@@ -1,0 +1,126 @@
+@import "grid.css";
+.no-padding
+{
+	padding: 0px;
+}
+.ssNetSuiteSynchronizationContainer,
+.ssNetSuiteSynchronizationContainer *
+{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.ssNetSuiteSynchronizationContainer
+{
+    margin: 15px 10px 15px 0px;
+}
+.ssHeaderNawBlock
+{
+	padding: 0px;
+	margin: 0px;
+}
+.ssHeaderNawBlock li
+{
+	display: inline-block;
+	margin: 0px;
+}
+
+.show_category_adm{
+    display:none;
+}
+
+.ssHeaderNawBlock li span,
+.ssNetSuiteButton
+{
+	display: inline-block;
+	padding: 10px 15px;
+	margin-right: 5px;
+	border: 1px solid #d2d2d2;
+	cursor: pointer;
+	color: #000;
+	background: linear-gradient(#ffa500,#f3cc74);
+	font-weight: bold;
+}
+.ssNetSuiteButton
+{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    font-weight: normal;
+}
+.ssHeaderNawBlock li span:hover,
+.ssHeaderNawBlock li span.active,
+.ssNetSuiteButton:hover
+{
+    background: linear-gradient(#ff8d00,#fdaf00);
+}
+.selectButtonContainet
+{
+	padding-bottom: 0px;
+}
+.ssContentButtonInner
+{
+	border: 1px solid #d2d2d2;
+    margin-top: -1px;
+    background: #fff;
+}
+.ssSection
+{
+    display: none;
+}
+.SShideResult
+{
+    background: #d2d2d2;
+    padding: 4px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formRow
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.formRow:before,
+.formRow:after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+.formRow label
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.synchCategorySS
+{
+    padding-left: 10px;
+}
+
+.synchCategorySS .synchCategorySS
+{
+    padding-left: 20px;
+}

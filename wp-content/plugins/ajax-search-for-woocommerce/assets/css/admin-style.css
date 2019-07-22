@@ -1,0 +1,56 @@
+
+
+.dgwt-wcas-settings-hr {
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.dgwt-wcas-settings-group > h2{
+    display: none;
+}
+.dgwt-wcas-admin-head {
+    margin: 30px 0 20px 5px;
+}
+.dgwt-wcas-admin-head h1 {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+    padding: 0;
+}
+.wp-core-ui .button.dgwt-wcas-button-preview {
+    vertical-align: middle;
+}
+.dgwt-wcas-button-preview .dashicons {
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.form-table td p.dgwt_wcas_settings-description-field {
+    color: #777;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+    max-width: 96%;
+    max-width: calc(100% - 40px);
+}
+
+.dgwt_wcas_settings-group > h2{
+    display: none;
+}
+
+
+.dgwt-wcas-settings-info {
+    background: #fbfbfb none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.dgwt-wcas-settings-info h4 {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 7px
+}
+.dgwt-wcas-settings-info p {
+    margin-bottom: 10px;
+}

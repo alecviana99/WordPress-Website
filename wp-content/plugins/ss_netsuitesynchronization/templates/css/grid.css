@@ -1,0 +1,12 @@
+.grid-*:bofore,
+.grid-*:after
+{
+	content: '';
+	display: table;
+	position: relative;
+}	
+.grid-12
+{
+	width: 100%;
+	padding: 15px;
+}
